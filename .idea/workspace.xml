@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wordgame.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wordgame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordgame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+            <state relative-caret-position="-360">
+              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="words.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="words.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2575365">
-              <caret line="171691" column="6" lean-forward="false" selection-start-line="171691" selection-start-column="6" selection-end-line="171691" selection-end-column="6" />
+            <state relative-caret-position="517">
+              <caret line="171705" column="6" lean-forward="true" selection-start-line="171705" selection-start-column="6" selection-end-line="171705" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/words.txt" />
         <option value="$PROJECT_DIR$/wordgame.py" />
+        <option value="$PROJECT_DIR$/words.txt" />
       </list>
     </option>
   </component>
@@ -473,16 +473,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wordgame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        <state relative-caret-position="-360">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2575365">
-          <caret line="171691" column="6" lean-forward="false" selection-start-line="171691" selection-start-column="6" selection-end-line="171691" selection-end-column="6" />
+        <state relative-caret-position="517">
+          <caret line="171705" column="6" lean-forward="true" selection-start-line="171705" selection-start-column="6" selection-end-line="171705" selection-end-column="6" />
           <folding />
         </state>
       </provider>

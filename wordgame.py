@@ -16,7 +16,6 @@ def input_(allwords,letter):
             else:
                 # Call comp_var function that choses a letter as computer player
                 var = comp_var(allwords,letter)
-        print var
         letter = letter + var
         select = [word for word in allwords if word.startswith(letter)]
         exists(letter,select)
@@ -35,8 +34,6 @@ def exists(letter,select):
             else:
                 print 'You Lost'
         else:
-            print letter
-            print select
             if letter in select:
                 print "%s Found!" % (letter)
                 if len(letter) % 2 == 0:
@@ -70,7 +67,8 @@ def comp_var(select,letter):
                         if (len(word)) <= (len(letter) + 1):
                             if len(select) > 1:
                                 # This if will ensure that we don't remain with an empty list and hence no word to work with
-                                select.remove(word)
+                                # select.remove(word)
+                                pass
                         # If at this point we are remaining with only one word in our list, then thats the word comp'll choose
                     if len(select) == 1:
                         word = select[0]
