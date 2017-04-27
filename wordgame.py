@@ -95,9 +95,8 @@ def comp_var(select,letter):
                             group4 = select_2[0]
                             group5 = select_2[-1]
 
-                            word = random.choice([group1,group2,group3,group4,group5])
+                            word = random.choice([group1,group2,group3,group5])
 
-                        print len(select_2)
                         del select_2[:]
                 else:
                     #With no option, we can randomly select a word from the list
