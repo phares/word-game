@@ -1,6 +1,6 @@
+
+
 # incase of anything, the app will finally pick a random letter.
-
-
 import random
 def input_(allwords,letter):
     global player
@@ -28,7 +28,7 @@ def input_(allwords,letter):
 def exists(letter,select):
     try:
         if len(select) == 0:
-            print ('No such word %s in this list' % (letter))
+            print ('No such word %s in this dictionary' % (letter))
             if len(letter) % 2 == 0:
                 print 'Computer lost'
             else:
@@ -46,7 +46,7 @@ def exists(letter,select):
     except Exception as e:
         print e
 
-
+# This function will select a variable for the computer player.
 def comp_var(select,letter):
     try:
         if len(select) !=0:
@@ -59,8 +59,8 @@ def comp_var(select,letter):
                     for word in select:
                         if (len(word)) != (len(letter) + 1) :
                             word = word
-                        else:
-                            word = random.choice(select)
+                    else:
+                        word = random.choice(select)
                 elif len(select) > 2:
                     for word in select:
                         #Remove all words from list which if chosen will lead to ending game
@@ -82,7 +82,22 @@ def comp_var(select,letter):
                                 select_2.append(word)
                             else:
                                 pass
-                        word = max(select_2, key=len)
+
+                        if len(select_2) == 1:
+                            word = select_2[0]
+                        elif len(select_2) == 2:
+                            word = random.choice(select_2)
+                        else :
+                            select_2.sort()
+                            group1 = max(select_2, key=len)
+                            group2 = min(select_2, key=len)
+                            group3 = random.choice(select_2)
+                            group4 = select_2[0]
+                            group5 = select_2[-1]
+
+                            word = random.choice([group1,group2,group3,group4,group5])
+
+                        print len(select_2)
                         del select_2[:]
                 else:
                     #With no option, we can randomly select a word from the list
